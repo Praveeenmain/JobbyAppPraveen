@@ -1,0 +1,19 @@
+.Not-found-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+}
+.not-found-image{
+    height:290px;
+}
+.not-headig{
+    color:white;
+    font-family:roboto;
+}
+.not-paragraph{
+     color:white;
+     font-family:roboto;
+}

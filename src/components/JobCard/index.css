@@ -1,0 +1,78 @@
+.job-card{
+    background-color: #272727;
+    padding: 20px;
+    margin-top: 15px;
+    width:900px;
+    background-size: cover;
+    border-radius: 10px;
+    color:white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+     align-self: flex-start;
+}
+.salaray-container{
+    display: flex;
+    align-self:flex-end;
+    margin-left:600px;
+}
+.logo-y{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+.star{
+    color:yellow
+}
+.job-lo-sal-container{
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.employment-type{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+.company-logo{
+    height:58px;
+}
+.logo-role-rating{
+    display: flex;
+    align-items: center;
+}
+.title-rating{
+    margin-left: 15px;
+}
+
+.location-employment-container{
+display: flex;
+align-items: center;
+}
+.specific-link{
+    text-decoration: none;
+}
+@media (max-width:577px){
+   .job-card{
+      width:400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: -40px;
+      padding:-40px;
+      
+     
+   }
+   .line{
+    width:350px;
+   }
+  
+}
